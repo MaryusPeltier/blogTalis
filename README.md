@@ -1,3 +1,3 @@
 # blogTalis
 
-<h1>Bonjour</h1>
+Bonjour
