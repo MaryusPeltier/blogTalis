@@ -15,6 +15,7 @@
     <title>Document</title>
 </head>
 <body>
+    <?php require "nav-bar.php"; ?>
     <h1>Admin</h1>
 </body>
 </html>

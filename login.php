@@ -7,9 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <a href="disconnect.php">Disconnect</a>
-    </nav>
+    <?php require "nav-bar.php"; ?>
 
     <form action="login_post.php" method="post">
         <input class="pseudo" type="text" style="border:2px solid gray; border-radius:5px; padding:6px; text-decoration:none; color:black;" placeholder="Pseudo" name="pseudo">
