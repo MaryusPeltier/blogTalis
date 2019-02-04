@@ -10,7 +10,9 @@
 // SInon redirection login.php
 
 if($_POST["pseudo"] === "admin" && $_POST["password"] === "admin"){
-    echo "Bonjour ".$_POST["pseudo"];
+    session_start();
+    $_SESSION["pseudo"] = $_POST["pseudo"];
+    header('location:admin.php');
 }else if($_POST["pseudo"] !== "admin"){
     header('location:login.php?message=Erreur de pseudo');
 }else if($_POST["password"] !== "admin"){
