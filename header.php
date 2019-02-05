@@ -1,6 +1,6 @@
 <?php
     session_start();
-
+    require "database.php";
     if (!isset($_SESSION["pseudo"]) && !isset($loginPage)){
         header("Location:login.php");
     }
