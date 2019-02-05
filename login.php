@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <?php require "nav-bar.php"; ?>
+<?php 
+$loginPage=true;
+require "header.php";
+?>
 
     <form action="login_post.php" method="post">
         <input class="pseudo" type="text" style="border:2px solid gray; border-radius:5px; padding:6px; text-decoration:none; color:black;" placeholder="Pseudo" name="pseudo">
