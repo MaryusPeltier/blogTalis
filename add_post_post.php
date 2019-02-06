@@ -10,3 +10,4 @@ $req->execute(array(
     "title" => $title,
     "content" => $content
 ));
+header("Location: admin.php");
